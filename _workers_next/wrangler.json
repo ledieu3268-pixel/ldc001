@@ -1,7 +1,6 @@
 {
     "name": "ldc001",
-    "main": "worker-entry.mjs",
-    "keep_names": true,
+    "main": ".open-next/worker.js",
     "compatibility_date": "2025-11-12",
     "compatibility_flags": [
         "nodejs_compat"
@@ -17,11 +16,6 @@
             "database_id": "6d3fec4d-fb60-4030-886b-1a5ebae2172b"
         }
     ],
-    "triggers": {
-        "crons": [
-            "* * * * *"
-        ]
-    },
     "observability": {
         "enabled": true
     }
