@@ -1,5 +1,5 @@
 {
-    "name": "ldc-shop-next",
+    "name": "ldc001",
     "main": "worker-entry.mjs",
     "keep_names": true,
     "compatibility_date": "2025-11-12",
@@ -13,7 +13,8 @@
     "d1_databases": [
         {
             "binding": "DB",
-            "database_name": "ldc-shop-next"
+            "database_name": "ldc001"
+            "database_id": "6d3fec4d-fb60-4030-886b-1a5ebae2172b"
         }
     ],
     "triggers": {
